@@ -53,7 +53,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             <option value="other" <?php if ($gender == 'other') echo 'selected'; ?>>Other</option>
         </select>
 
-        <label for="field">Field of Study:</label>
+        <label for="field">Fild of Study:</label>
         <select id="field" name="field" required>
             <option value="IT" <?php if ($field == 'IT') echo 'selected'; ?>>IT</option>
             <option value="CS" <?php if ($field == 'CS') echo 'selected'; ?>>Computer Science</option>
